@@ -141,7 +141,7 @@ while not proceed:
         time += 1
         youth = True
         proceed = True
-        print("\"If all goes well,\" you say, slipping your pocketwatch into your pocket. \"That all depends if I can find them before they find the Count.\"\n"
+        print("\"If all goes well,\" you say, slipping your pocketwatch into your pocket. \"That all depends if I can find them before they find the Duke.\"\n"
               "\"You'll catch him, I just know it!\" The girl emphatically jumps, clearly thrilled to be speaking with you.\n"
               "\"Yes, well I'm quite good.\" You begin to turn away, but the girl lingers by your side. It's clear that she's rather enamored by you.\n"
               "You give her a sideways glance. \"Is that all?\" You ask.\n"
@@ -164,7 +164,7 @@ print("\nThe ticket booth has a bit of a line, but luckily for you, you have a r
 
 player.getname(input("What is your name? "))
 
-print("\n\"Ah, Inspector " + player.name + ", we've been expecting you.\" She smiles and hands you your ticket. \"I trust you'll keep the Count safe and sound.\"\n"
+print("\n\"Ah, Inspector " + player.name + ", we've been expecting you.\" She smiles and hands you your ticket. \"I trust you'll keep the Duke safe and sound.\"\n"
                                        "\"I had hoped it would be more confidential than that,\" you mutter, taking your ticket. \"Thank you.\"")
 
 print("You depart quickly, to avoid wasting any more time. It is only when you have passed the doors of the opera house that you realize that the woman at the ticket booth had given you a small envelope along with your ticket.")
