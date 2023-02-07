@@ -246,7 +246,7 @@ if not location == "opera":
             while not proceed2:
                 choice = int(input())
                 if choice == 1:
-                    ending()
+                    ending(expect, police, "Rope" in player.items)
                 elif choice == 2:
                     proceed2 = True
                     print("No, the poor man must be terrified out of his wits. Your presence would only remind him of the thread on his life.\n"
